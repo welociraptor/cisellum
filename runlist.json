@@ -1,0 +1,6 @@
+{
+  "run_list": [
+    "cisellum::fish",
+    "cisellum::proto"
+  ]
+}
