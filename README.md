@@ -19,3 +19,11 @@ This document contains instructions for setting up a new (Apple Silicon) MacBook
 ```shell
 brew install cirruslabs/cli/tart
 ```
+
+5. Create a development virtual machine
+
+```shell
+tart clone ghcr.io/cirruslabs/debian:latest debian
+tart set debian --disk-size 50
+tart run debian
+```
